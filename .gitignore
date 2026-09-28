@@ -1,0 +1,36 @@
+# Executáveis e bibliotecas gerados na compilação
+/biblioteca
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.exp
+
+# Arquivos intermediários do GnuCOBOL (cobc -C / -save-temps)
+/biblioteca.c
+/biblioteca.h
+/biblioteca.c.h
+/biblioteca.c.l.h
+/biblioteca.i
+
+# Diretórios de saída
+/build/
+/dist/
+
+# Depuração e arquivos temporários
+*.pdb
+*.ilk
+*.exe.manifest
+*.stackdump
+*.tmp
+*.bak
+*.swp
+*~
+
+# Arquivos auxiliares do Windows
+Thumbs.db
+Desktop.ini
